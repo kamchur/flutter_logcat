@@ -16,7 +16,7 @@ extension LogExtension on LogChannel {
   String _getFrame() {
     final StackTrace trace = StackTrace.current;
     assert(!trace.toString().contains('_consoleOutput'),
-    'Do not used flutter_logcat\'s function in stream function. If you used in release mode. Don\'t get out of the infinity looper.');
+        'Do not used flutter_logcat\'s function in stream function. If you used in release mode. Don\'t get out of the infinity looper.');
     final String frame = trace.toString().split("\n")[4];
     return frame;
   }
