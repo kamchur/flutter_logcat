@@ -1,3 +1,6 @@
+## 1.3.2
+* Fixed logic trace.
+
 ## 1.3.1
 * Added Stream - Subscrition.
 
